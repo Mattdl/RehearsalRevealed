@@ -1,0 +1,14 @@
+.vscode/
+__pycache__
+.idea/
+.run/
+avalanche/benchmarks/datasets/*/data
+*.py~
+logs/
+*.pyc
+doc_html/*
+*.pt
+results/
+*.pkl
+graphics/
+data/results/
