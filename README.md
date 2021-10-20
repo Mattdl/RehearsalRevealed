@@ -1,7 +1,7 @@
 # Rehearsal Revealed: The limits and merits of revisiting samples in continual learning
-**[Open-Access paper](https://arxiv.org/pdf/2104.07446.pdf)** | **[Open-source MIT license](LICENSE)** | **[Avalanche framework](https://github.com/ContinualAI/avalanche)**
+**[Open-Access paper](https://openaccess.thecvf.com/content/ICCV2021/html/Verwimp_Rehearsal_Revealed_The_Limits_and_Merits_of_Revisiting_Samples_in_ICCV_2021_paper.html)** | **[Open-source MIT license](LICENSE)** | **[Avalanche framework](https://github.com/ContinualAI/avalanche)**
 
-This is the official Pytorch based codebase for the *Rehearsal Revealed* paper.
+This is the official Pytorch based codebase for the *Rehearsal Revealed* paper, published at ICCV 2021.
 We examine replay/rehearsal in continual learning, in the perspective of loss landscapes.
 All experiments can be reproduced, from analysing the loss contours, linear interpolations paths and gradients, 
 to significantly improving rehearsal with Ridge Aversion.
@@ -43,12 +43,13 @@ See also the [Mini Imagenet tools](https://github.com/yaoyao-liu/mini-imagenet-t
 ## Credits 
 - Consider citing our paper upon using this repo:
 
-        @misc{verwimp2021rehearsal,
-          title={Rehearsal revealed: The limits and merits of revisiting samples in continual learning}, 
-          author={Eli Verwimp and Matthias De Lange and Tinne Tuytelaars},
-          year={2021},
-          eprint={2104.07446},
-          archivePrefix={arXiv},
-          primaryClass={cs.LG}}
+        @InProceedings{Verwimp_2021_ICCV,
+            author    = {Verwimp, Eli and De Lange, Matthias and Tuytelaars, Tinne},
+            title     = {Rehearsal Revealed: The Limits and Merits of Revisiting Samples in Continual Learning},
+            booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+            month     = {October},
+            year      = {2021},
+            pages     = {9385-9394}
+        }
 
 - Thanks to the [Avalanche framework](https://github.com/ContinualAI/avalanche) v0.0.1 for the Ridge Aversion Experiments.
